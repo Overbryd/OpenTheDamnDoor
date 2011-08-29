@@ -57,7 +57,7 @@
     //NSLog(@"Connection Error - %@ %@",
     //      [error localizedDescription]);
 	
-	NSBeginAlertSheet(@"Connection to Doorduino failed.", @"OK, I'll run and open the door.", nil, nil, nil, self, nil, nil, nil, @"");
+	NSBeginAlertSheet(@"Connection to Doorduino failed.", @"OK", nil, nil, nil, self, nil, nil, nil, @"");
 }
 
 @end
