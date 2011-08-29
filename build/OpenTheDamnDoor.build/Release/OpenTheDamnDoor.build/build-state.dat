@@ -1,0 +1,299 @@
+TOpenTheDamnDoor
+v7
+r0
+t307200743.173741
+cCheck dependencies
+cProcessInfoPlistFile /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/Info.plist Info.plist
+cStripNIB /Users/x7aa185/Development/OpenTheDamnDoor/English.lproj/MainMenu.nib
+cCopyStringsFile /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cProcessPCH /var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-afiejefwjzihulfiwithdqdhfpuu/OpenTheDamnDoor_Prefix.pch.gch OpenTheDamnDoor_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-havkpsqtydmtuufuuqxlvearblza/OpenTheDamnDoor_Prefix.pch.gch OpenTheDamnDoor_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/main.o /Users/x7aa185/Development/OpenTheDamnDoor/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/AppController.o /Users/x7aa185/Development/OpenTheDamnDoor/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/main.o /Users/x7aa185/Development/OpenTheDamnDoor/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/AppController.o /Users/x7aa185/Development/OpenTheDamnDoor/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/OpenTheDamnDoor normal ppc
+cLd /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/OpenTheDamnDoor normal i386
+cCreateUniversalBinary /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/MacOS/OpenTheDamnDoor normal "ppc i386"
+cGenerateDSYMFile /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app.dSYM /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/MacOS/OpenTheDamnDoor
+cTouch /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004AA5420900000000000000EE
+t1252344329
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/AppController.h
+c000000004C9DEFF20000000000000172
+t1285418994
+s370
+i<Cocoa/Cocoa.h>
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/AppController.m
+c000000004C9F4B5B00000000000006BA
+t1285507931
+s1722
+i"AppController.h"
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/English.lproj/InfoPlist.strings
+c000000004C9A1A3000000000000000CA
+t1285167664
+s202
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/English.lproj/MainMenu.nib
+c000000004C9DF0370000000000000088
+t1285419063
+s136
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/OpenTheDamnDoor_Prefix.pch
+c000000004C9A1A3000000000000000A1
+t1285167664
+s161
+i<Cocoa/Cocoa.h>
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/AppController.o
+t1285507942
+s17812
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/OpenTheDamnDoor
+t1285507943
+s14560
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/OpenTheDamnDoor.LinkFileList
+c000000004C9DE5740000000000000109
+t1285416308
+s265
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/main.o
+t1285416316
+s4852
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/AppController.o
+t1285507940
+s18940
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/OpenTheDamnDoor
+t1285507941
+s14152
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/OpenTheDamnDoor.LinkFileList
+c000000004C9DE5740000000000000107
+t1285416308
+s263
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/main.o
+t1285416315
+s4880
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app
+t1285507943
+s102
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app.dSYM
+t1285507943
+s102
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/Info.plist
+t1285416308
+s793
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/MacOS/OpenTheDamnDoor
+t1285507943
+s35040
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/PkgInfo
+t1285416308
+s8
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1285416308
+s202
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/Resources/English.lproj/MainMenu.nib
+t1285507938
+s1407
+
+N/Users/x7aa185/Development/OpenTheDamnDoor/main.m
+c000000004C9A1A300000000000000106
+t1285167664
+s262
+i<Cocoa/Cocoa.h>
+
+N/var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-afiejefwjzihulfiwithdqdhfpuu/OpenTheDamnDoor_Prefix.pch.gch
+t1285416315
+s49975504
+
+N/var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-havkpsqtydmtuufuuqxlvearblza/OpenTheDamnDoor_Prefix.pch.gch
+t1285416315
+s52740496
+
+NInfo.plist
+c000000004C9DE574000000000000034C
+t1285416308
+s844
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies307200737#307200737#0(0"0(0#1#0"31244212048494624#0"0#
+
+CCompileC build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/AppController.o /Users/x7aa185/Development/OpenTheDamnDoor/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307200739.126815
+e307200742.839863
+r1
+xCompileC
+xbuild/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/AppController.o
+x/Users/x7aa185/Development/OpenTheDamnDoor/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/x7aa185/Development/OpenTheDamnDoor/AppController.m307200739#307200742#0(0"0(0#0#58"/Users/x7aa185/Development/OpenTheDamnDoor/AppController.m8603019808#1237"    cd /Users/x7aa185/Development/OpenTheDamnDoor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/OpenTheDamnDoor.hmap -F/Users/x7aa185/Development/OpenTheDamnDoor/build/Release -I/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/include -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/DerivedSources/i386 -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/DerivedSources -include /var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-havkpsqtydmtuufuuqxlvearblza/OpenTheDamnDoor_Prefix.pch -c /Users/x7aa185/Development/OpenTheDamnDoor/AppController.m -o /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/AppController.o0#
+
+CCompileC build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/main.o /Users/x7aa185/Development/OpenTheDamnDoor/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307109115.796288
+e307109116.051446
+r1
+xCompileC
+xbuild/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/main.o
+x/Users/x7aa185/Development/OpenTheDamnDoor/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/x7aa185/Development/OpenTheDamnDoor/main.m307109115#307109116#0(0"0(0#0#49"/Users/x7aa185/Development/OpenTheDamnDoor/main.m8601152160#1219"    cd /Users/x7aa185/Development/OpenTheDamnDoor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/OpenTheDamnDoor.hmap -F/Users/x7aa185/Development/OpenTheDamnDoor/build/Release -I/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/include -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/DerivedSources/i386 -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/DerivedSources -include /var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-havkpsqtydmtuufuuqxlvearblza/OpenTheDamnDoor_Prefix.pch -c /Users/x7aa185/Development/OpenTheDamnDoor/main.m -o /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/main.o0#
+
+CCompileC build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/AppController.o /Users/x7aa185/Development/OpenTheDamnDoor/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s307200738.347850
+e307200740.299373
+r1
+xCompileC
+xbuild/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/AppController.o
+x/Users/x7aa185/Development/OpenTheDamnDoor/AppController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/x7aa185/Development/OpenTheDamnDoor/AppController.m307200738#307200740#0(0"0(0#0#58"/Users/x7aa185/Development/OpenTheDamnDoor/AppController.m8598243104#1244"    cd /Users/x7aa185/Development/OpenTheDamnDoor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/OpenTheDamnDoor.hmap -F/Users/x7aa185/Development/OpenTheDamnDoor/build/Release -I/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/include -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/DerivedSources/ppc -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/DerivedSources -include /var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-afiejefwjzihulfiwithdqdhfpuu/OpenTheDamnDoor_Prefix.pch -c /Users/x7aa185/Development/OpenTheDamnDoor/AppController.m -o /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/AppController.o0#
+
+CCompileC build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/main.o /Users/x7aa185/Development/OpenTheDamnDoor/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s307109115.549566
+e307109115.796189
+r1
+xCompileC
+xbuild/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/main.o
+x/Users/x7aa185/Development/OpenTheDamnDoor/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/x7aa185/Development/OpenTheDamnDoor/main.m307109115#307109115#0(0"0(0#0#49"/Users/x7aa185/Development/OpenTheDamnDoor/main.m8603626880#1226"    cd /Users/x7aa185/Development/OpenTheDamnDoor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/OpenTheDamnDoor.hmap -F/Users/x7aa185/Development/OpenTheDamnDoor/build/Release -I/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/include -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/DerivedSources/ppc -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/DerivedSources -include /var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-afiejefwjzihulfiwithdqdhfpuu/OpenTheDamnDoor_Prefix.pch -c /Users/x7aa185/Development/OpenTheDamnDoor/main.m -o /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/main.o0#
+
+CCopyStringsFile /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s307109108.420408
+e307109108.903786
+r1
+xCopyStringsFile
+x/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings307109108#307109108#0(0"0(0#0#74"/Users/x7aa185/Development/OpenTheDamnDoor/English.lproj/InfoPlist.strings8602767072#384"    cd /Users/x7aa185/Development/OpenTheDamnDoor    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/Resources/English.lproj0#
+
+CCreateUniversalBinary /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/MacOS/OpenTheDamnDoor normal "ppc i386"
+s307200743.065820
+e307200743.092337
+r1
+xCreateUniversalBinary
+x/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/MacOS/OpenTheDamnDoor
+xnormal
+xppc i386
+lSLF07#2@104"CreateUniversalBinary build/Release/OpenTheDamnDoor.app/Contents/MacOS/OpenTheDamnDoor normal "ppc i386"307200743#307200743#0(0"0(0#0#51"/Users/x7aa185/Development/OpenTheDamnDoor/ppc i3868598476256#465"    cd /Users/x7aa185/Development/OpenTheDamnDoor    /usr/bin/lipo -create /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/OpenTheDamnDoor /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/OpenTheDamnDoor -output /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/MacOS/OpenTheDamnDoor0#
+
+CGenerateDSYMFile /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app.dSYM /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/MacOS/OpenTheDamnDoor
+s307200743.092411
+e307200743.157313
+r1
+xGenerateDSYMFile
+x/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app.dSYM
+x/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/MacOS/OpenTheDamnDoor
+lSLF07#2@120"GenerateDSYMFile build/Release/OpenTheDamnDoor.app.dSYM build/Release/OpenTheDamnDoor.app/Contents/MacOS/OpenTheDamnDoor307200743#307200743#0(0"0(0#0#107"/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/MacOS/OpenTheDamnDoor8601214944#275"    cd /Users/x7aa185/Development/OpenTheDamnDoor    /Developer/usr/bin/dsymutil /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/MacOS/OpenTheDamnDoor -o /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app.dSYM0#
+
+CLd /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/OpenTheDamnDoor normal i386
+s307200742.839977
+e307200743.065730
+r1
+xLd
+x/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/OpenTheDamnDoor
+xnormal
+xi386
+lSLF07#2@141"Link /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/OpenTheDamnDoor307200742#307200743#0(0"0(0#0#0"8601344192#635"    cd /Users/x7aa185/Development/OpenTheDamnDoor    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/x7aa185/Development/OpenTheDamnDoor/build/Release -F/Users/x7aa185/Development/OpenTheDamnDoor/build/Release -filelist /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/OpenTheDamnDoor.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -o /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/i386/OpenTheDamnDoor0#
+
+CLd /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/OpenTheDamnDoor normal ppc
+s307200740.299533
+e307200741.691022
+r1
+xLd
+x/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/OpenTheDamnDoor
+xnormal
+xppc
+lSLF07#2@140"Link /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/OpenTheDamnDoor307200740#307200741#0(0"0(0#0#0"8600699520#632"    cd /Users/x7aa185/Development/OpenTheDamnDoor    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/x7aa185/Development/OpenTheDamnDoor/build/Release -F/Users/x7aa185/Development/OpenTheDamnDoor/build/Release -filelist /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/OpenTheDamnDoor.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -o /Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/Objects-normal/ppc/OpenTheDamnDoor0#
+
+CProcessInfoPlistFile /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/Info.plist Info.plist
+s307109108.369135
+e307109108.393785
+r1
+xProcessInfoPlistFile
+x/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist307109108#307109108#0(0"0(0#0#53"/Users/x7aa185/Development/OpenTheDamnDoor/Info.plist32370038940172396#334"    cd /Users/x7aa185/Development/OpenTheDamnDoor    builtin-infoPlistUtility Info.plist -genpkginfo /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-afiejefwjzihulfiwithdqdhfpuu/OpenTheDamnDoor_Prefix.pch.gch OpenTheDamnDoor_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s307109109.277473
+e307109115.436146
+r1
+xProcessPCH
+x/var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-afiejefwjzihulfiwithdqdhfpuu/OpenTheDamnDoor_Prefix.pch.gch
+xOpenTheDamnDoor_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile OpenTheDamnDoor_Prefix.pch307109109#307109115#0(0"0(0#0#69"/Users/x7aa185/Development/OpenTheDamnDoor/OpenTheDamnDoor_Prefix.pch8603557856#1121"    cd /Users/x7aa185/Development/OpenTheDamnDoor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/OpenTheDamnDoor.hmap -F/Users/x7aa185/Development/OpenTheDamnDoor/build/Release -I/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/include -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/DerivedSources/ppc -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/DerivedSources -c /Users/x7aa185/Development/OpenTheDamnDoor/OpenTheDamnDoor_Prefix.pch -o /var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-afiejefwjzihulfiwithdqdhfpuu/OpenTheDamnDoor_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-havkpsqtydmtuufuuqxlvearblza/OpenTheDamnDoor_Prefix.pch.gch OpenTheDamnDoor_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s307109109.278321
+e307109115.549473
+r1
+xProcessPCH
+x/var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-havkpsqtydmtuufuuqxlvearblza/OpenTheDamnDoor_Prefix.pch.gch
+xOpenTheDamnDoor_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile OpenTheDamnDoor_Prefix.pch307109109#307109115#0(0"0(0#0#69"/Users/x7aa185/Development/OpenTheDamnDoor/OpenTheDamnDoor_Prefix.pch8603222272#1113"    cd /Users/x7aa185/Development/OpenTheDamnDoor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/OpenTheDamnDoor.hmap -F/Users/x7aa185/Development/OpenTheDamnDoor/build/Release -I/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/include -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/DerivedSources/i386 -I/Users/x7aa185/Development/OpenTheDamnDoor/build/OpenTheDamnDoor.build/Release/OpenTheDamnDoor.build/DerivedSources -c /Users/x7aa185/Development/OpenTheDamnDoor/OpenTheDamnDoor_Prefix.pch -o /var/folders/Cm/CmM7wlQMEfmUtzEpsn--KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenTheDamnDoor_Prefix-havkpsqtydmtuufuuqxlvearblza/OpenTheDamnDoor_Prefix.pch.gch0#
+
+CStripNIB /Users/x7aa185/Development/OpenTheDamnDoor/English.lproj/MainMenu.nib
+s307200737.758538
+e307200738.347461
+r1
+xStripNIB
+x/Users/x7aa185/Development/OpenTheDamnDoor/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib307200737#307200738#0(0"0(0#0#69"/Users/x7aa185/Development/OpenTheDamnDoor/English.lproj/MainMenu.nib30399731284181092#317"    cd /Users/x7aa185/Development/OpenTheDamnDoor    /Developer/usr/bin/ibtool --strip /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/x7aa185/Development/OpenTheDamnDoor/English.lproj/MainMenu.nib0#
+
+CTouch /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app
+s307200743.157390
+e307200743.173692
+r1
+xTouch
+x/Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app
+lSLF07#2@82"Touch /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app307200743#307200743#0(0"0(0#0#0"8600857344#149"    cd /Users/x7aa185/Development/OpenTheDamnDoor    /usr/bin/touch -c /Users/x7aa185/Development/OpenTheDamnDoor/build/Release/OpenTheDamnDoor.app0#
+
