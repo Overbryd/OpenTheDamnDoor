@@ -32,13 +32,14 @@
 	NSLog(@"Trying to open the Door");
 	
 	// Setup a request
-	NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://door/letmein"] 
-														   cachePolicy:NSURLRequestReloadIgnoringLocalCacheData 
-													   timeoutInterval:5.0];
+  // TODO investigate and use local domain name again, http://door/...
+	NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://192.168.2.5/letmein"] 
+                                                         cachePolicy:NSURLRequestReloadIgnoringCacheData 
+                                                     timeoutInterval:5.0];
 	[request setHTTPMethod:@"GET"];
 	
 	// Open the connection¬¬
-    [[NSURLConnection alloc] initWithRequest:request delegate:self]; 
+  [[NSURLConnection alloc] initWithRequest:request delegate:self]; 
 }
 
 // Everything is fine
