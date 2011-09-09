@@ -9,12 +9,12 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface AppController : NSObject {
-	/* Our outlets which allow us to access the interface */
-	IBOutlet NSMenu *statusMenu;
+@interface AppController : NSObject
+{
 	NSStatusItem *statusItem;
+  NSConnection *connection;
 }
 
--(IBAction)openDoor:(id)sender;
+- (IBAction)openDoor:(id)sender;
 	
 @end
