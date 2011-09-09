@@ -1,0 +1,6 @@
+build
+.DS_Store
+*~
+/*.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad/UserInterfaceState.xcuserstate
+/*.xcodeproj/xcuserdata/*.xcuserdatad/xcschemes/OpenTheDamnDoor.xcscheme
+/*.xcodeproj/xcuserdata/*.xcuserdatad/xcschemes/xcschememanagement.plist
